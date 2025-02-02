@@ -10,6 +10,8 @@ This is README for dump-ssa VSCode extension for Noir.
 - Command `dump-ssa.showSSA` shows choosed SSA in right window.
 - Command `dump-ssa.updateReadonlySettings` changes access mod for SSA log files to read-only.
 - Command `dump-ssa.getSSADiff` shows diff for 2 SSA versions.
+- Command `dump-ssa.flushSSALogs` flush all logs in target dir.
+- Command `dump-ssa.compileWithSSA` compile program with dump SSA.
 
 ## Requirements
 
@@ -17,7 +19,7 @@ IDK
 
 ## Extension Settings
 
-In future
+
 
 ## Known Issues
 

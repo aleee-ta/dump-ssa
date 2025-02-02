@@ -11,7 +11,6 @@ export async function getSSADiff(): Promise<void> {
         const secondFileUri = vscode.Uri.file(files.file2);
 
         await vscode.commands.executeCommand('vscode.diff', firstFileUri, secondFileUri, "SSA File Comparison");
-
         vscode.window.showInformationMessage("Diff view opened successfully.");
     } catch (error) {
         vscode.window.showErrorMessage(`Error opening diff view: ${error instanceof Error ? error.message : "Unknown error"}`);
