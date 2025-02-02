@@ -2,7 +2,7 @@
   "name": "dump-ssa",
   "displayName": "dump-ssa",
   "description": "Dump and processing SSA for Noir",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "alee",
   "repository": {"type": "git", "url": "https://github.com/aleee-ta/dump-ssa.git"},
   "engines": {

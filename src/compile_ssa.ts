@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import * as childProcess from 'child_process';
 
 export async function compileWithSSA(): Promise<void> {
-    const config = vscode.workspace.getConfiguration('dumpSSA');
+    const config = vscode.workspace.getConfiguration('dump-ssa');
     const nargoPath = config.get<string>('nargoPath') || 'nargo';
     const nargoFlags = config.get<string>('nargoFlags') || '';
 

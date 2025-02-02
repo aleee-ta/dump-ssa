@@ -31,3 +31,7 @@ dump-ssa in the early stages of development, the number of bugs can reach one mi
 
 Initial MVP release of dump-ssa
 
+### 0.0.2
+
+Add compileWithSSA & flushSSALogs
+
